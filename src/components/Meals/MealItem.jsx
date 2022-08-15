@@ -1,7 +1,7 @@
 import classes from './MealItem.module.css'
 
 export const MealItem = ({name, description, price:propPrice}) => {
-    const price = `${props.price.toFixed(2)}`
+    const price = `${propPrice.toFixed(2)}`
     return (
         <li className={classes.meal}>
             <div>
